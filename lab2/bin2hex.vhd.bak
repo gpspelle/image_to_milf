@@ -1,0 +1,11 @@
+entity bin2hex
+port (
+SW: in std_logic_vector(3 downto 0);
+HEX0: out std_logic_vector(6 downto 0)
+);
+end bin2hex;
+
+ARCHITECTURE Behavior OF bin2hex IS
+BEGIN
+	
+END Behavior;

@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ec2016/ra172358/lab2/simulation/qsim
+vBlock1
+Z1 !s110 1520455485
+!i10b 1
+!s100 J;cJ4]^kjXP?=EY<U^kzm1
+IOM`1O]7VoR3O`@g5[<J7n3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1520455483
+8Block1.vo
+FBlock1.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1520455485.000000
+!s107 Block1.vo|
+!s90 -work|work|Block1.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@block1
+vBlock1_vlg_vec_tst
+R1
+!i10b 1
+!s100 UjeoIA_6zdz4e5FKfRM162
+IdWFTEHJORf2o:DS1EHZhK0
+R2
+R0
+w1520455481
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@block1_vlg_vec_tst
+Eestrutural
+Z7 w1520456536
+Z8 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z9 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 YZlobdkPHzE;N99jHfcMc3
+Z10 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z11 DPx8 cyclonev 19 cyclonev_components 0 22 WF17oJHHbo`b[5Bl5P6_h0
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z14 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 dfin^_@l97Ngz6cK0kjS62
+R0
+Z15 8estrutural.vho
+Z16 Festrutural.vho
+l0
+L36
+VJ7YbdoeOf`7IPP8:Ha9n[0
+!s100 laElVZ0kG1=c^z1_jh[^V1
+Z17 OV;C;10.5b;63
+32
+Z18 !s110 1520456537
+!i10b 1
+Z19 !s108 1520456537.000000
+Z20 !s90 -work|work|estrutural.vho|
+Z21 !s107 estrutural.vho|
+!i113 1
+R5
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 10 estrutural 0 22 J7YbdoeOf`7IPP8:Ha9n[0
+l86
+L56
+VaG1aARjlD1mW]Ok`z<5iU1
+!s100 KCB7AncDmgPVOX6?c>>@U1
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R5
+R22
+Eestrutural_vhd_vec_tst
+Z23 w1520456535
+R12
+R13
+R0
+Z24 8Waveform.vwf.vht
+Z25 FWaveform.vwf.vht
+l0
+L31
+VEch^U1l7[h:3RccSl44Wi1
+!s100 [2Ui1XCQYC9=LL<WRW?]]1
+R17
+32
+R18
+!i10b 1
+R19
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 1
+R5
+R22
+Aestrutural_arch
+R12
+R13
+DEx4 work 22 estrutural_vhd_vec_tst 0 22 Ech^U1l7[h:3RccSl44Wi1
+l52
+L33
+VkO[mDfO;cKKJJP9AzERh42
+!s100 AhAhLJ?;117Z]AMll1lKk0
+R17
+32
+R18
+!i10b 1
+R19
+R26
+R27
+!i113 1
+R5
+R22
