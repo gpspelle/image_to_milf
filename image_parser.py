@@ -1,14 +1,6 @@
 import sys
 from PIL import Image
 
-header_2 = """
-DEPTH = 307200;
-WIDTH = 3;
-ADDRESS_RADIX = HEX;
-DATA_RADIX = BIN;
-CONTENT
-BEGIN\n"""
-
 if len(sys.argv) > 2:
     input_filename = sys.argv[1]
     output_filename = sys.argv[2]
@@ -25,7 +17,12 @@ if len(sys.argv) > 2:
 
     print("> Writing to file: "+ output_filename)
 
-    f.write(header_2)
+    f.write("DEPTH = %d;" % (w * h))
+    f.write("WIDTH = 3;")
+    f.write("ADDRESS_RADIX = HEX;")
+    f.write("DATA_RADIX = BIN;")
+    f.write("CONTENT")
+    f.write("BEGIN\n")
 
     index = 0;
     for x in range(0, w):
